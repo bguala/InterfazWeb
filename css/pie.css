@@ -1,0 +1,49 @@
+.footer-estilo {
+    display: flex;
+    background-color: rgb(210, 172, 125);
+    height: 200px;
+    /*justify-content: space-between;*/
+}
+
+.texto-email-estilo {
+    margin-top: 0px;
+    padding-top: 50px;
+    font-family: 'Coiny', system-ui;
+    font-weight: bold;
+}
+
+.email-estilo {
+  margin-top: 0px;
+  padding-top: 70px;
+  margin-left: 80px;
+}
+
+.titulo-estilo {
+    font-family: 'Coiny', system-ui;
+    font-size: 25px;
+}
+
+.link-estilo {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }*/ 
+  
+  .div-contenedor {
+    position: relative;
+    height: 200px;
+    /*border: 2px solid #006100;*/
+  }
+  
+  .centrar-verticalmente {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }

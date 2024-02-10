@@ -1,0 +1,38 @@
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+header nav ul li {
+    border-radius: 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid black;
+    background-color: rgb(85, 85, 159);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+header div h3 {
+    background-color: antiquewhite;
+}
+
+header nav {
+    background-color: aquamarine;
+    width: 600px;
+    /*justify-content: center;*/
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}

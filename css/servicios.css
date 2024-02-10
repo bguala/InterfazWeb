@@ -1,0 +1,33 @@
+.servicios {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    height: 650px;
+}
+
+.formato-img {
+    height: auto;
+    width: 5%;
+}
+
+.servicios-estilo {
+    border-radius: 10px;
+    box-shadow: 10px 6px 6px darkslategray;
+    padding: 20px;
+    width: 40%;
+    height: 250px;
+    background-color: lightgray;
+}
+
+.img-estilo {
+    height: 100px;
+    width: auto;
+}
+
+.img-servicios {
+    height: 600px;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 50px;
+    padding-top: 25px;
+}

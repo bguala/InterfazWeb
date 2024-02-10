@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto integrador</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/pie.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h3>BDG Automatización y Control</h3>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="inicio"> 
+            <div class="div-presentacion">
+                <h2>Hola! Soy <span>Bruno Guala</span></h2>
+                <p>Analista en Computación | UNCo</p>
+                <p>
+                    Nos encargamos de gestionar y administrar datos de campo
+                    para tu empresa o negocio.
+                </p>
+            </div>
+            <div>
+                <img src="img/img-servicios.png" alt="Logo" class="img-presentacion">
+            </div>
+        </section>
+
+        <section class="presentacion">
+            <div class="div-presentacion">
+                <p class="parrafo-consulta">
+                    Acerca de mi,
+                </p>
+                <p>
+                    En el año 2017 termine la carrera de grado <strong>Licenciatura
+                    en Ciencias de la Computación en la Universidad Nacional 
+                    del Comahue - Sede Neuquén Capital</strong>. Actualmente estoy trabajando en un proyecto de 
+                    tesis titulado "Realidad Virtual como plataforma de visualización de datos".
+                    Desarrollé mi carrera profesional en la empresa <strong>AESA</strong> implementando y manteniendo 
+                    proyectos de automatización y control para <strong>YPF</strong> en la Unidades de Negocio <strong>Loma La Lata, 
+                    Rio Negro y El Portón</strong>.
+                </p>
+            </div>
+            <div class="div-presentacion">
+                <p class="parrafo-consulta">
+                    GESTIONAMOS TUS DATOS DE CAMPO
+                </p>
+                <p>
+                    Mediante protocolos de comunicación industrial obtenemos datos de 
+                    Controladores, Gateways y Concentradores para implementar centros de 
+                    monitoreo que permiten la telesupervisión y control a distancia de procesos vinculados a <strong>Pozos, 
+                    Instalaciones Eléctricas, Instalaciones de Superficie y Puntos de Medición Fiscal</strong>.
+                </p>
+            </div>
+        </section>
+
+        <section class="servicios">
+            <div class="">
+                <img src="img/img-servicios.png" alt="logo" class="img-servicios">
+            </div>
+            <div class="servicios-estilo">
+                <p>Servicios</p>
+                <ol>
+                    <li>Mantenimiento e Implementación de Sistemas SCADA</li>
+                    <li>Adquisición de datos de Controladores de campo</li>
+                    <li>Configuración y despliegue en producción de Nodos SCADA Upstream</li>
+                    <li>Implementación de Salas de Control</li>
+                    <li>Migración de datos</li>
+                    <li>Generación de datos históricos mediante Software PI OsiSoft</li>
+                    <li>Networking</li>
+                    <li>¡Empezamos a comunicar!</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <div class="texto-contacto">
+                <p class="parrafo-contacto">¿Querés que me</p>
+                <p class="parrafo-contacto">contacte con vos?</p>
+                <p class="parrafo-consulta">Enviame tu consulta >></p>
+            </div>
+            <div class="">
+                <form class="form-estilo" action="enviar.php" method="POST">
+                    <div>
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" name="nombre" class="campo-texto" placeholder="Nombre">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido *</label>
+                        <input type="text" name="apellido" class="campo-texto" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" class="campo-texto" placeholder="info@email.com">
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" class="campo-texto" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="form-div">
+                        <div>
+                            <input type="submit" value="ENVIAR CONSULTA" class="form-boton">
+                        </div>
+                        <div>
+                            <input type="reset" value="BORRAR" class="form-boton">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="redes-sociales-estilo">
+            <div class="div-contenedor">
+                <div class="centrar-verticalmente">
+                    <h1>Redes Sociales</h1>
+                </div>
+            </div>
+            <div class="div-contenedor">
+                <div class="centrar-verticalmente">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="img/instagram-icon.png" alt="instagram" class="img-estilo">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="div-contenedor">
+                <div class="centrar-verticalmente">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="img/linkedin-icon.png" alt="linkedin" class="img-estilo">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="div-contenedor">
+                <div class="centrar-verticalmente">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="img/facebook-icon.png" alt="facebook" class="img-estilo">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-estilo">   
+        <div class="texto-email-estilo">
+            
+            <h4>Correo Electrónico</h4>
+            
+        </div>
+
+        <div class="email-estilo">
+            
+            <a href="mailto: bruno.guala@fi.uncoma.edu.ar" class="link-estilo">bruno.guala@fi.uncoma.edu.ar</a>
+            
+        </div>
+    </footer>
+</body>
+</html>
